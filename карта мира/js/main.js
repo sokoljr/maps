@@ -22,7 +22,7 @@ $(document).ready(function() {
 	    var path = AmCharts.maps.worldLow;
 		var obj = path.svg.g.path;
 		for (var key in obj) {
-			console.log(obj[key]);
+			console.log(obj[key].title);
 		}
 	});
 });
